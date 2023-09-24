@@ -1,0 +1,209 @@
+.title {
+  margin: 200px 0 20px;
+  padding: 0 10px;
+}
+
+.title h2 {
+  font-size: 3.29em;
+}
+
+.title p {
+  font-size: 1.43em;
+  padding-top: 95px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mv {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+section {
+  margin-bottom: 180px;
+}
+
+h3 {
+  line-height: 2;
+  text-align: center;
+  font-size: 2.57em;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: 60% 0;
+  margin-bottom: 70px;
+}
+
+.works {
+  padding: 0 10px;
+}
+
+.works a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  width: 31%;
+  padding: 20px 0;
+}
+
+.works figure {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about figure {
+  margin-left: 80px;
+}
+
+.about .desc {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.about .desc p {
+  padding: 0 10px 0 100px;
+}
+
+.about .desc p:first-of-type {
+  font-size: 2.29em;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.about .desc .name {
+  color: #8a8a8a;
+  margin-bottom: 60px;
+  padding-left: 10px;
+}
+
+.about .desc .name span {
+  display: block;
+  font-size: 0.67em;
+}
+
+.about .btn {
+  text-align: right;
+  margin-right: 15px;
+}
+
+.about button {
+  background: transparent;
+  background-image: url(../images/btn.png);
+  background-repeat: no-repeat;
+  width: 184px;
+  height: 51px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 1.14em;
+}
+
+.about button:hover {
+  color: #333;
+}
+
+.skill .flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill .box {
+  width: 28%;
+  height: auto;
+  background-color: #fff;
+  margin-bottom: 35px;
+  padding: 30px 40px;
+}
+
+.skill .box figure,
+.skill h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.skill h4 {
+  font-size: 1.29em;
+  margin-bottom: 20px;
+}
+
+main.skill,
+main.works{
+  margin: 170px auto 200px;
+}
+@media screen and (max-width: 768px) {
+  
+  img {
+    max-width: 100%;
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+
+  .title p {
+    padding-top: 30px;
+  }
+
+  h3 {
+    background-position: 65% 0;
+    background-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  .mv {
+    text-align: left;
+    padding-right: 30px;
+  }
+
+  section {
+    margin-bottom: 100px;
+  }
+
+  .works a {
+    margin: auto;
+    width: 75%;
+    margin-bottom: 30px;
+  }
+
+  .works figure {
+    margin-bottom: 10px;
+  }
+
+  .works figure img {
+    max-width: 85%;
+  }
+
+  .about figure {
+    text-align: center;
+    margin: 0 auto 40px;
+    max-width: 80%;
+  }
+
+  .about .desc {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 10px 0 20px;
+  }
+
+  .about .desc p {
+    padding-left: 10px;
+  }
+
+  .about .btn {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .skill .box {
+    margin: 0 auto 35px;
+    width: 70%;
+    height: 310px;
+  }
+
+}
