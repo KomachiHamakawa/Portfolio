@@ -1,0 +1,112 @@
+main {
+  margin-bottom: 200px;
+}
+.title {
+  margin: 150px auto 30px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+main>figure {
+  padding: 40px 0;
+  background-color: #D9D9D9;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+main>figure img {
+  max-width: 50%;
+}
+
+dl {
+  padding-right: 60px;
+  position: relative;
+}
+
+dt {
+  font-size: 1.29em;
+  font-weight: bold;
+  position: absolute;
+  margin-bottom: 40px;
+}
+
+dt span {
+  display: inline-block;
+  font-size: 0.8em;
+  color: #D9D9D9;
+  padding-left: 15px;
+}
+
+dd {
+  padding: 0 0 60px 350px;
+}
+
+dl dl {
+  padding: 30px 0 0;
+}
+
+dl dl dt {
+  font-size: 1.14em;
+  font-weight: bold;
+}
+
+dl dl dd {
+  padding: 0 0 35px 180px;
+}
+
+.logo {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  margin-left: 350px;
+  width: 15%;
+}
+
+dd:has(+ .logo) {
+  padding-bottom: 30px;
+}
+
+dl dl .set {
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin: 120px auto 30px;
+  }
+
+  header div.inner {
+    margin-bottom: 0;
+  }
+
+  dl {
+    padding-right: 0;
+  }
+
+  dd {
+    padding: 40px 0 60px 0;
+  }
+
+  dl dl dd {
+    padding: 25px 0 40px 0;
+  }
+
+  dt {
+    font-size: 1.29em;
+    font-weight: bold;
+    position: absolute;
+    margin-bottom: 20px;
+  }
+
+  .set+dd {
+    padding: 0 0 40px 0;
+  }
+
+  .logo {
+    margin-left: 0;
+    width: 150px;
+  }
+}
